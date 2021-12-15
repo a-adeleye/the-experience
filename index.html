@@ -1,115 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>The Experience Grid</title>
-</head>
-<body>
-        <div class="header">
-            <h1>The VC Experience</h1>
-            <img class='menu' src="images/menu.png" alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>The Vintage Experience</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>The Vintage Experience</h1>
+      <img class="menu" src="images/menu.png" onClick="toggleMenu()" />
+    </div>
+
+    <nav>
+      <ul id="menu">
+        <li><a href="#mission">Mission Statement</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#team">Investment Team</a></li>
+      </ul>
+    </nav>
+
+    <div class="banner">
+      <div id="mission" class="experience">
+        <h2>The VC Experience</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+    </div>
+
+    <div id="portfolio" class="portfolio">
+      <div class="title">
+        <div>
+          <h3>Our Premium Collections</h3>
+          <p>
+            Impacting diverse sectors of mobility to better the human experience
+            and the world we inhabit
+          </p>
+        </div>
+      </div>
+
+      <div class="portfolio-image">
+        <div>
+          <img src="images/thunderbird.jpg" alt="" />
+          <h3>Thunderbird</h3>
         </div>
 
-        <nav>
-            <ul>
-                <li><a href="#mission">Mission Statement</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#team">Investment Team</a></li>
-            </ul>
-            
-        </nav>
+        <div>
+          <img src="images/ford.jpeg" alt="" />
+          <h3>Ford</h3>
+        </div>
 
-        
-
-<div class="banner">
-    <div id="mission" class="experience">
-        <h3>The VC Experience</h3>
-        <p>Our fund is committed to the furthering entrepreneurs in the mobility sector.</p>
+        <div>
+          <img src="images/cheverolet.jpeg" alt="" />
+          <h3>Cheverolet</h3>
+        </div>
+        <div>
+          <img src="images/dodge.jpeg" alt="" />
+          <h3>Dodge</h3>
+        </div>
+      </div>
     </div>
-</div>
 
-<div id="portfolio" class="portfolio">
     <div class="title">
-        <div>
-            <h3>Our Mobility Portfolio</h3>
-            <p>Impacting diverse sectors of mobility to better the human experience and the world we inhabit</p>
-        </div>
-    </div>
-    
-    <div class="portfolio-image">
-
-        <div>
-            <img src="images/hangar.jpg" alt="">
-            <h3>AeroArgonauts</h3>
-        </div>
-        
-        <div>
-            <img src="images/dashboard.jpg" alt="">
-            <h3>AutoBueno</h3>
-        </div>
-
-        <div>
-            <img src="images/blurred-lights.jpg" alt="">
-            <h3>LaneChatter</h3>
-        </div>
-
+      <h2>Gallery</h2>
     </div>
 
-</div>
-<div class="team-title">
-    <h2>Our Team</h2>
-</div>
-
-<div id="team" class="team">
-
-    
-
-    <div class="team-container">
-
-        <div class="staff">
-            <img src="images/employee-one.jpg" alt="">
-            <h3>Nasser Almutairi</h3>
-            <p>C.E.O. - Founder and Principal Investor</p>
-        </div>
-
-        <div class="staff">
-            <img src="images/employee-two.jpg" alt="">
-            <h3>Sora Shimazaki</h3>
-            <p>Partner - Research & Development</p>
-        </div>
-
-        <div class="staff">
-            <img src="images/employee-three.jpg" alt="">
-            <h3>Omar Carlsen</h3>
-            <p>Partner - Partnerships & Marketing</p>
-        </div>
-
-        <div class="staff">
-            <img src="images/employee-four.jpg" alt="">
-            <h3>Khaled Saleh</h3>
-            <p>Partner - Partnerships & Marketing</p>
-        </div>
-
-        <div class="staff">
-            <img src="images/employee-five.jpg" alt="">
-            <h3>Klaus Nielsen</h3>
-            <p>Partner - Partnerships & Marketing</p>
-        </div>
-
+    <div class="gallery">
+      <div
+        class="card card-tall card-wide"
+        style="background-image: url('images/1.jpeg')"
+      ></div>
+      <div
+        class="card card-tall"
+        style="background-image: url('images/2.jpeg')"
+      ></div>
+      <div class="card" style="background-image: url('images/3.jpeg')"></div>
+      <div class="card" style="background-image: url('images/4.jpeg')"></div>
+      <div class="card" style="background-image: url('images/5.jpeg')"></div>
+      <div class="card" style="background-image: url('images/6.jpeg')"></div>
+      <div
+        class="card card-wide"
+        style="background-image: url('images/7.jpeg')"
+      ></div>
+      <div class="card" style="background-image: url('images/8.jpeg')"></div>
+      <div class="card" style="background-image: url('images/9.jpeg')"></div>
+      <div class="card" style="background-image: url('images/10.jpeg')"></div>
+      <div class="card" style="background-image: url('images/11.jpeg')"></div>
+      <div class="card" style="background-image: url('images/12.jpeg')"></div>
+      <div class="card" style="background-image: url('images/13.webp')"></div>
     </div>
 
-</div>
+    <div class="title">
+      <h2>Our Team</h2>
+    </div>
 
-</div>
-<footer>
-    <h3>The VC Experience</h3>
-    <p class="email">adeleyeadeyemi@gmail.com</p>
-    <p>588-121-250</p>
-    <p>copyright &copy; aadeleye 2021</p>
-</footer>
+    <div id="team" class="team">
+      <div class="team-container">
+        <div class="staff">
+          <img src="images/employee-one.jpg" alt="" />
+          <h3>Nasser Almutairi</h3>
+          <p>C.E.O. - Founder and Principal Investor</p>
+        </div>
 
-</body>
+        <div class="staff">
+          <img src="images/employee-two.jpg" alt="" />
+          <h3>Sora Shimazaki</h3>
+          <p>Partner - Research & Development</p>
+        </div>
+
+        <div class="staff">
+          <img src="images/employee-three.jpg" alt="" />
+          <h3>Omar Carlsen</h3>
+          <p>Partner - Partnerships & Marketing</p>
+        </div>
+
+        <div class="staff">
+          <img src="images/employee-four.jpg" alt="" />
+          <h3>Khaled Saleh</h3>
+          <p>Partner - Partnerships & Marketing</p>
+        </div>
+
+        <div class="staff">
+          <img src="images/employee-five.jpg" alt="" />
+          <h3>Klaus Nielsen</h3>
+          <p>Partner - Partnerships & Marketing</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="credit">
+      <h2>Image credit</h2>
+      <img src="images/pexels-logo.png" alt="" />
+    </div>
+
+    <footer>
+      <h3>The VC Experience</h3>
+      <p class="email">adeleyeadeyemi@gmail.com</p>
+      <p>588-121-250</p>
+      <p>copyright &copy; aadeleye 2021</p>
+    </footer>
+    <script>
+      const elem = document.getElementById("menu");
+      elem.style.maxHeight = "0px";
+      const toggleMenu = () => {
+        elem.style.maxHeight === "0px" ? elem.style.maxHeight = '200px' : elem.style.maxHeight = '0px';
+      };
+    </script>
+  </body>
 </html>
